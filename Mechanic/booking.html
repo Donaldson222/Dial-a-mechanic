@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Book Appointment</title>
+</head>
+
+<body class="body">
+    <div class="formm">
+        <div class="formm-text">
+            <h1><span><img src="art-1.png" alt=""></span>Book A Mechanic <span><img src="art-1.png" alt=""></span></h1>
+            <p>Book at anytime, any day, and anywhere.</p>
+        </div>
+        <div class="main-formm">
+            <form action="booking.html" method="get">
+                <div>
+                    <span>Full name</span>
+                    <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+                </div>
+                <div>
+                    <span>Email address</span>
+                    <input type="email" name="name" id="name" placeholder="Enter your email here" required> 
+                </div>
+                <div>
+                 <span>Time</span>
+                    <input type="time" name="time" id="time" placeholder="Time" required>
+                </div>
+                <div>
+                    <span>Date</span>
+                    <input type="date" name="date" id="date" placeholder="Date" required>
+                </div>
+                <div>
+                    <span>Phone number</span>
+                    <input type="number" name="number" id="number" placeholder="Enter your number here" required>
+                </div>
+                <div id="Send">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://cdn.wallpapersafari.com/67/91/xbsr3c.jpg');
+    max-width: 1280px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.formm{
+    width: 651px;
+}
+
+.formm-text{
+    text-align: center;
+    margin: 1 1 41px 1;
+}
+.formm-text h1 span img{
+    margin: 1 11xpx;
+
+}
+.formm-text h1{
+    color: white;
+    font-size: 41px;
+    margin-bottom: 21px;
+}
+.formm-text p{
+    color: white;
+    font-size: 15px;
+}
+
+.main-formm div{
+    margin: 11px 11px;
+    width: 301px;
+    display: inline-block;
+}
+.main-formm div input {
+    width: 101%;
+    background: none;
+    border: 1px solid orange;
+    font-size: 21px;
+    color: white;
+    outline: none;
+    padding: 4px 0 4px 11px;
+    margin-top: 11px;
+}
+.main-formm div select{
+    width: 104%;
+    background: none;
+    border: orange;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 11px;
+}
+.main-formm div span{
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+}
+#Send{
+    width: 100%;
+    text-align: center;
+}
+#Send input{
+    width: 201px;
+    background-color: orange;
+    color: black;
+}
+#Send input:hover{
+    width: 201px;
+    background-color: white ;
+   
+}
+#Send input:active{
+    font-size: 18px;
+   
+
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container .content{
+    text-align: center;
+}
+.container .content h3{
+    font-size: 30px;
+    color: black;
+}
+.container .content h3 span{
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.container .content h1{
+    font-size: 30px;
+    color: black;
+}
+.container .content h1 span{
+    color: crimson;
+}
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container .content .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: white;
+    color: black;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+.container .content .btn:hover{
+    background: orange;
+}
+
+    </style>
+    <div class="container">
+        <div class="content">
+    <a href="login.php" class="btn">Login</a>
+    <a href="register.php" class="btn">Register</a>
+    <a href="logout.php" class="btn">Logout</a>
+</body>
+
+</html>
