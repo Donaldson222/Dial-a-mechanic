@@ -1,0 +1,192 @@
+*{
+    font-family: montserrat;
+}
+.section-header{
+    margin-bottom: 40px;
+}
+.section-header h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color:orange;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span{
+    color: orange;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: white;
+}
+.carousel{
+    background-image: url("https://th.bing.com/th/id/R.17960b471cbd2359a5b3b970af622164?rik=XyHyUvJrolWHBQ&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 10%;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    margin-top: 25px;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: orange;
+}
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: white;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: orange;
+    padding: 2px 19px;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+    border-radius: 2px;
+    align-items: right;
+}
+h3 {
+    color: white; 
+    text-align: left;
+    
+}
+h4{
+    color: orange;
+}
+h5{
+    color: white;
+    font-size: 15px;
+}
+
+
+.form-group {
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: inline;
+    width: 100px; 
+    font-weight: bold; 
+} 
+
+input, textarea {
+    display: inline; 
+    width: 400px; 
+    border-radius: 5px;
+    border: 1px solid black;    
+    padding: 5px; 
+}
+
+button {
+    display: inline; 
+    width: 400px; 
+    margin-left: 100px; 
+    background-color: orange; 
+    color: black; 
+    border-radius: 5px;
+    border: none; 
+    padding: 10px; 
+}
+
+button:hover {
+    background-color: white; 
+}
+
+
+
+
+
+
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration:none;
+  
+}
+.fa:hover {
+  opacity: 0.2;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-instagram{
+  background: red;
+  color: white;
+}
+.icon-container {
+  position: fixed;
+  align-items: right;
+  left: 0; 
+  bottom: 0;
+    margin: 10px;
+}
+mark{
+    background-color: black;
+}
+.navbar{
+    background: black; 
+font-family: calibri; 
+top: 0px;
+}
+.navdiv{
+    display:flex; 
+align-items: right; 
+justify-content: space-between;
+float: right;
+top: 0px;
+}
+
+li{
+    list-style: none; 
+display: inline-block;
+}
+li a{
+    color: white;
+font-size: 15px; 
+font-weight: bold; 
+margin-right: 20px;
+}
