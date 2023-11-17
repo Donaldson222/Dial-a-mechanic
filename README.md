@@ -1,4 +1,4 @@
-# Hello Mechanic
+# Hello Mechanic(Dial-a-mechanic)
 # About Us
   Hello Mechanic was founded by Jash Bhalakia on 17th November 2023.
                     It was founded to solve the current challenges faced by people while on road.
