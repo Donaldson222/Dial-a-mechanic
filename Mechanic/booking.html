@@ -7,6 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Book Appointment</title>
+    <script>
+        function validateForm() {
+            var name = document.forms["myForm"]["name"].value;
+            var email = document.forms["myForm"]["email"].value;
+            var phone = document.forms["myForm"]["phone"].value;
+            var time = document.forms["myForm"]["time"].value;
+            var date = document.forms["myForm"]["date"].value;
+
+            if (name == "" || email == "" || phone == "" || time == "" || date == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+
+            var regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (!regexEmail.test(email)) {
+                alert("Email format is incorrect");
+                return false;
+            }
+
+            var regexPhone = /^[0-9]{10}$/;
+            if (!regexPhone.test(phone)) {
+                alert("Phone number format is incorrect");
+                return false;
+            }
+
+            alert("Your appointment has been booked successfully!");
+            return true;
+        }
+    </script>
 </head>
 
 <body class="body">
@@ -16,7 +45,7 @@
             <p>Book at anytime, any day, and anywhere.</p>
         </div>
         <div class="main-formm">
-            <form action="booking.html" method="get">
+            <form action="booking.html" method="get" onsubmit="return validateForm()">
                 <div>
                     <span>Full name</span>
                     <input type="text" name="name" id="name" placeholder="Enter your name here" required>
@@ -184,6 +213,7 @@ body{
     <a href="login.php" class="btn">Login</a>
     <a href="register.php" class="btn">Register</a>
     <a href="logout.php" class="btn">Logout</a>
+    
 </body>
 
 </html>
